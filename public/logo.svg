@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48">
+  <defs>
+    <linearGradient id="ssGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0066FF"/>
+      <stop offset="100%" stop-color="#0C2340"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF7A00"/>
+      <stop offset="100%" stop-color="#E65A00"/>
+    </linearGradient>
+  </defs>
+  <!-- Background Circle -->
+  <circle cx="24" cy="24" r="22" fill="url(#ssGrad)"/>
+  
+  <!-- Outer Wheel / Ashoka Chakra motif ring -->
+  <circle cx="24" cy="24" r="17" fill="none" stroke="#FFFFFF" stroke-width="1.5" stroke-opacity="0.25" stroke-dasharray="2,2"/>
+  
+  <!-- Chariot Wheel / Sarthi Spoke Cross -->
+  <circle cx="24" cy="24" r="14" fill="none" stroke="#FFFFFF" stroke-width="1.2" stroke-opacity="0.4"/>
+  
+  <!-- Stylized SS / Sarthi Path Navigation Marker -->
+  <path d="M16 26 C16 20, 24 21, 24 16 C24 13.5, 21.5 12.5, 19 13.5" fill="none" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round"/>
+  <path d="M32 22 C32 28, 24 27, 24 32 C24 34.5, 26.5 35.5, 29 34.5" fill="none" stroke="url(#accentGrad)" stroke-width="2.6" stroke-linecap="round"/>
+  
+  <!-- Central Guiding Star / Compass Hub -->
+  <circle cx="24" cy="24" r="3.2" fill="#FFFFFF"/>
+  <circle cx="24" cy="24" r="1.6" fill="#0066FF"/>
+  
+  <!-- Guiding Sparkle Arrow -->
+  <path d="M24 6 L25.5 10 L24 9 L22.5 10 Z" fill="#FF7A00"/>
+</svg>

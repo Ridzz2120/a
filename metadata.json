@@ -1,0 +1,11 @@
+{
+  "name": "SafarAdda",
+  "description": "Indian Urban Transit + Heritage Mobility Intelligence Web App - Authentic auto fares, monument reels, 500m scam radar & safety intelligence.",
+  "requestFramePermissions": [
+    "camera",
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
